@@ -1,0 +1,10 @@
+print("Nguyen Van Tam","\nMSSV: 235752021610054")
+import math;
+x1=int(input("Nhap toa do x1: "))
+y1=int(input("Nhap toa do y1: "))
+x2=int(input("Nhap toa do x2: "))
+y2=int(input("Nhap toa do y2: "))
+a=(x1-x2)*(x1-x2)
+b=(y1-y2)*(y1-y2)
+c= math.sqrt(a+b)
+print("khoang cach giua hai diem: ",c)
