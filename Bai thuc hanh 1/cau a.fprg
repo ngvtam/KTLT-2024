@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="bai1"/>
+        <attribute name="authors" value="DELL Inc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-27 08:35:45 CH"/>
+        <attribute name="created" value="REVMTCBJbmM7VEhBSS1OVjsyMDI0LTEwLTA0OzA5OjQzOjMwIFBNOzIzODI="/>
+        <attribute name="edited" value="REVMTCBJbmM7VEhBSS1OVjsyMDI0LTEwLTA0OzA5OjUyOjMwIFBNOzE7MjQ5MA=="/>
+        <attribute name="edited" value="QUNFUjtERVNLVE9QLU5KSVJCNUI7MjAyNC0xMS0yNzswODozNTo0NSBDSDsyOzI3Mzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Nguyen Van Tam MSSV:235752021610054&quot;" newline="True"/>
+            <declare name="r" type="Real" array="False" size=""/>
+            <output expression="&quot;Nhap ban kinh: &quot;" newline="True"/>
+            <input variable="r"/>
+            <declare name="dt" type="Real" array="False" size=""/>
+            <assign variable="dt" expression="pi*r^2"/>
+            <output expression="&quot;Dien tich hinh tron la: &quot;&amp;dt" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

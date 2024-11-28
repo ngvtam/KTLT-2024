@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="cau c"/>
+        <attribute name="authors" value="DELL Inc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-27 08:36:20 CH"/>
+        <attribute name="created" value="REVMTCBJbmM7VEhBSS1OVjsyMDI0LTEwLTA0OzA5OjU5OjIyIFBNOzIzOTA="/>
+        <attribute name="edited" value="REVMTCBJbmM7VEhBSS1OVjsyMDI0LTEwLTA0OzEwOjA0OjQ4IFBNOzE7MjQ4OA=="/>
+        <attribute name="edited" value="QUNFUjtERVNLVE9QLU5KSVJCNUI7MjAyNC0xMS0yNzswODozNjoyMCBDSDsxOzI3MzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r" type="Real" array="False" size=""/>
+            <output expression="&quot;Nhap ban k&#237;nh: &quot;" newline="True"/>
+            <input variable="r"/>
+            <declare name="dt" type="Real" array="False" size=""/>
+            <output expression="&quot;Dien tich hinh tron la: &quot;&amp;dt(r)" newline="True"/>
+            <output expression="&quot;Nguyen Van Tam MSSV:235752021610054&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="dt" type="Real" variable="dt">
+        <parameters>
+            <parameter name="r" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="dt" type="Real" array="False" size=""/>
+            <assign variable="dt" expression="pi*r^2"/>
+        </body>
+    </function>
+</flowgorithm>

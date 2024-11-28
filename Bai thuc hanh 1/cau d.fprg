@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="cau d"/>
+        <attribute name="authors" value="DELL Inc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-27 08:36:58 CH"/>
+        <attribute name="created" value="REVMTCBJbmM7VEhBSS1OVjsyMDI0LTEwLTA1OzA3OjAxOjMwIEFNOzIzNjA="/>
+        <attribute name="edited" value="REVMTCBJbmM7VEhBSS1OVjsyMDI0LTEwLTA1OzA3OjA2OjQwIEFNOzE7MjQ3NA=="/>
+        <attribute name="edited" value="QUNFUjtERVNLVE9QLU5KSVJCNUI7MjAyNC0xMS0yNzswODozNjo1OCBDSDsxOzI3NDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot;Nhap canh day cua tam giac: &quot;" newline="True"/>
+            <input variable="a"/>
+            <declare name="h" type="Integer" array="False" size=""/>
+            <output expression="&quot; Nhap chieu cao cua tam giac: &quot;" newline="True"/>
+            <input variable="h"/>
+            <declare name="dt" type="Real" array="False" size=""/>
+            <assign variable="dt" expression="(a*h)/2"/>
+            <output expression="&quot; Dien tich cua tam giac  la: &quot;&amp;dt" newline="True"/>
+            <output expression="&quot;Nguyen Van Tam MSSV:235752021610054&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
